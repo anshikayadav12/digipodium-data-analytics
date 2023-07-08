@@ -1,7 +1,7 @@
 from turtle import *
 #function defination 
-def square(size,color='red'):
-    fillcolor('blue')
+def square(size,color= 'blue'):
+    fillcolor('red')
     begin_fill()
     for i in range(4):
         forward(size)
